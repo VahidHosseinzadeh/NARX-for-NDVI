@@ -51,7 +51,6 @@ def arx_model(df,
     # we generate the data from the above function.
     # again: X shape is (len(labels), sum(p_feats)) and y shape is of course (len(labels),)
     X,y = data_gen(df=df)
-    
 
 
     
